@@ -7,7 +7,7 @@ footer {
   display: block;
   text-align: center;
   border-radius: 6px;
-  margin: 0px 20px 20px 20px;
+  margin: 0px 10px 20px 10px;
   padding: 24px 15px;
 }
 
@@ -27,11 +27,12 @@ body {
 }
 
 section {
-    width: 495px;
+    width: 55%;
     float: left;
 }
 
 aside {
+    width: 34%;
     float: right;
 }
 
@@ -41,8 +42,12 @@ footer {
 }
 
 article {
+    color: #ebebeb;
     background: #777;
     margin: 10px 10px 10px 10px;
     padding: 10px 10px;
 }
 
+article > p, h1, h2, h3 {
+    color: #777;
+}
